@@ -40,17 +40,18 @@
             this.cboCentro = new System.Windows.Forms.ComboBox();
             this.cboNordeste = new System.Windows.Forms.ComboBox();
             this.cboNorte = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.countEstados = new System.Windows.Forms.Label();
+            this.countSudeste = new System.Windows.Forms.Label();
+            this.CountCentro = new System.Windows.Forms.Label();
+            this.countNorte = new System.Windows.Forms.Label();
+            this.countSul = new System.Windows.Forms.Label();
             this.btnRemoverAdd = new System.Windows.Forms.Button();
             this.btnRemoverNordeste = new System.Windows.Forms.Button();
             this.btnRemoverCentro = new System.Windows.Forms.Button();
             this.btnRemoverNorte = new System.Windows.Forms.Button();
             this.btnRemoverSudeste = new System.Windows.Forms.Button();
             this.btnRemoverSul = new System.Windows.Forms.Button();
+            this.countNordeste = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -112,56 +113,31 @@
             this.cboEstados.FormattingEnabled = true;
             this.cboEstados.Items.AddRange(new object[] {
             "Acre",
-            "",
-            "Alagoas",
-            "",
             "Amazonas",
-            "",
-            "Bahia",
-            "",
-            "Ceará",
-            "",
-            "Distrito Federal",
-            "",
-            "Espírito Santo",
-            "",
-            "Goiás",
-            "",
-            "Maranhão",
-            "",
-            "Mato Grosso",
-            "",
-            "Mato Grosso do Sul",
-            "",
-            "Minas Gerais",
-            "",
             "Pará",
-            "",
-            "Paraíba",
-            "",
-            "Paraná",
-            "",
-            "Pernambuco",
-            "",
-            "Piauí",
-            "",
-            "Rio de Janeiro",
-            "",
-            "Rio Grande do Norte",
-            "",
-            "Rio Grande do Sul",
-            "",
-            "Rondônia",
-            "",
             "Roraima",
-            "",
-            "Santa Catarina",
-            "",
+            "Rondônia",
+            "Tocantins",
+            "Amapá",
+            "Alagoas",
+            "Bahia",
+            "Ceará",
+            "Maranhão",
+            "Paraíba",
+            "Pernambuco",
+            "Piauí",
+            "Rio Grande do Norte",
+            "Distrito Federal",
+            "Goiás",
+            "Mato Grosso",
+            "Mato Grosso do Sul",
+            "Espírito Santo",
+            "Minas Gerais",
+            "Rio de Janeiro",
             "São Paulo",
-            "",
-            "Sergipe",
-            "",
-            "Tocantin"});
+            "Paraná",
+            "Santa Catarina",
+            "Rio Grande do Sul"});
             this.cboEstados.Location = new System.Drawing.Point(229, 38);
             this.cboEstados.Name = "cboEstados";
             this.cboEstados.Size = new System.Drawing.Size(121, 21);
@@ -207,55 +183,50 @@
             this.cboNorte.Size = new System.Drawing.Size(121, 21);
             this.cboNorte.TabIndex = 11;
             // 
-            // label7
+            // countEstados
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(473, 45);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "label7";
+            this.countEstados.AutoSize = true;
+            this.countEstados.Location = new System.Drawing.Point(473, 45);
+            this.countEstados.Name = "countEstados";
+            this.countEstados.Size = new System.Drawing.Size(0, 13);
+            this.countEstados.TabIndex = 12;
             // 
-            // label8
+            // countSudeste
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(467, 370);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "label8";
+            this.countSudeste.AutoSize = true;
+            this.countSudeste.Location = new System.Drawing.Point(467, 370);
+            this.countSudeste.Name = "countSudeste";
+            this.countSudeste.Size = new System.Drawing.Size(0, 13);
+            this.countSudeste.TabIndex = 13;
             // 
-            // label9
+            // CountCentro
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(473, 275);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "label9";
+            this.CountCentro.AutoSize = true;
+            this.CountCentro.Location = new System.Drawing.Point(473, 275);
+            this.CountCentro.Name = "CountCentro";
+            this.CountCentro.Size = new System.Drawing.Size(0, 13);
+            this.CountCentro.TabIndex = 14;
             // 
-            // label10
+            // countNorte
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(473, 135);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "label10";
+            this.countNorte.AutoSize = true;
+            this.countNorte.Location = new System.Drawing.Point(473, 135);
+            this.countNorte.Name = "countNorte";
+            this.countNorte.Size = new System.Drawing.Size(0, 13);
+            this.countNorte.TabIndex = 15;
             // 
-            // label11
+            // countSul
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(473, 492);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "label11";
+            this.countSul.AutoSize = true;
+            this.countSul.Location = new System.Drawing.Point(473, 492);
+            this.countSul.Name = "countSul";
+            this.countSul.Size = new System.Drawing.Size(0, 13);
+            this.countSul.TabIndex = 16;
             // 
             // btnRemoverAdd
             // 
             this.btnRemoverAdd.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemoverAdd.Location = new System.Drawing.Point(397, 45);
+            this.btnRemoverAdd.Location = new System.Drawing.Point(397, 37);
             this.btnRemoverAdd.Name = "btnRemoverAdd";
             this.btnRemoverAdd.Size = new System.Drawing.Size(30, 23);
             this.btnRemoverAdd.TabIndex = 17;
@@ -271,6 +242,7 @@
             this.btnRemoverNordeste.TabIndex = 18;
             this.btnRemoverNordeste.Text = "-";
             this.btnRemoverNordeste.UseVisualStyleBackColor = true;
+            this.btnRemoverNordeste.Click += new System.EventHandler(this.btnRemoverNordeste_Click);
             // 
             // btnRemoverCentro
             // 
@@ -280,6 +252,7 @@
             this.btnRemoverCentro.TabIndex = 19;
             this.btnRemoverCentro.Text = "-";
             this.btnRemoverCentro.UseVisualStyleBackColor = true;
+            this.btnRemoverCentro.Click += new System.EventHandler(this.btnRemoverCentro_Click);
             // 
             // btnRemoverNorte
             // 
@@ -289,6 +262,7 @@
             this.btnRemoverNorte.TabIndex = 20;
             this.btnRemoverNorte.Text = "-";
             this.btnRemoverNorte.UseVisualStyleBackColor = true;
+            this.btnRemoverNorte.Click += new System.EventHandler(this.btnRemoverNorte_Click);
             // 
             // btnRemoverSudeste
             // 
@@ -298,6 +272,7 @@
             this.btnRemoverSudeste.TabIndex = 21;
             this.btnRemoverSudeste.Text = "-";
             this.btnRemoverSudeste.UseVisualStyleBackColor = true;
+            this.btnRemoverSudeste.Click += new System.EventHandler(this.btnRemoverSudeste_Click);
             // 
             // btnRemoverSul
             // 
@@ -307,23 +282,33 @@
             this.btnRemoverSul.TabIndex = 22;
             this.btnRemoverSul.Text = "-";
             this.btnRemoverSul.UseVisualStyleBackColor = true;
+            this.btnRemoverSul.Click += new System.EventHandler(this.btnRemoverSul_Click);
+            // 
+            // countNordeste
+            // 
+            this.countNordeste.AutoSize = true;
+            this.countNordeste.Location = new System.Drawing.Point(466, 200);
+            this.countNordeste.Name = "countNordeste";
+            this.countNordeste.Size = new System.Drawing.Size(0, 13);
+            this.countNordeste.TabIndex = 24;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 835);
+            this.Controls.Add(this.countNordeste);
             this.Controls.Add(this.btnRemoverSul);
             this.Controls.Add(this.btnRemoverSudeste);
             this.Controls.Add(this.btnRemoverNorte);
             this.Controls.Add(this.btnRemoverCentro);
             this.Controls.Add(this.btnRemoverNordeste);
             this.Controls.Add(this.btnRemoverAdd);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.countSul);
+            this.Controls.Add(this.countNorte);
+            this.Controls.Add(this.CountCentro);
+            this.Controls.Add(this.countSudeste);
+            this.Controls.Add(this.countEstados);
             this.Controls.Add(this.cboNorte);
             this.Controls.Add(this.cboNordeste);
             this.Controls.Add(this.cboCentro);
@@ -357,17 +342,18 @@
         private System.Windows.Forms.ComboBox cboCentro;
         private System.Windows.Forms.ComboBox cboNordeste;
         private System.Windows.Forms.ComboBox cboNorte;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label countEstados;
+        private System.Windows.Forms.Label countSudeste;
+        private System.Windows.Forms.Label CountCentro;
+        private System.Windows.Forms.Label countNorte;
+        private System.Windows.Forms.Label countSul;
         private System.Windows.Forms.Button btnRemoverAdd;
         private System.Windows.Forms.Button btnRemoverNordeste;
         private System.Windows.Forms.Button btnRemoverCentro;
         private System.Windows.Forms.Button btnRemoverNorte;
         private System.Windows.Forms.Button btnRemoverSudeste;
         private System.Windows.Forms.Button btnRemoverSul;
+        private System.Windows.Forms.Label countNordeste;
     }
 }
 
